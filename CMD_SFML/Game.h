@@ -4,6 +4,8 @@
 #include <SFML/System.hpp>
 #include <SFML/Audio.hpp>
 #include <SFML/Network.hpp>
+#include <SFML/Graphics.hpp>
+
 
 #include <iostream>
 #include <vector>
@@ -26,10 +28,12 @@ private:
 	float enemySpawnTimer;
 	float enemySpawnTimerMax;
 
+	int enemySpeed;
 	int currentLevel;
 	bool level1Completed;
 
-
+	sf::Font font;
+	std::optional<sf::Text> text;
 
 	//FPS
 	sf::Clock clock;
@@ -65,6 +69,9 @@ public:
 	void update();
 	void updateEnemies();
 	void updateMousePosition();
+
+	void initText();
+	void updateText();
 
 	///Level 1
 	// create/spawn
