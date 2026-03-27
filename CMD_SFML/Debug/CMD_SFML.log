@@ -1,0 +1,6 @@
+﻿  Game.cpp
+C:\Users\mrrip\source\repos\CMD_SFML\CMD_SFML\Game.cpp(190,34): warning C4018: '<': signed/unsigned mismatch
+C:\Users\mrrip\source\repos\CMD_SFML\CMD_SFML\Game.cpp(210,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\mrrip\source\repos\CMD_SFML\CMD_SFML\Game.cpp(369,34): warning C4018: '<': signed/unsigned mismatch
+C:\Users\mrrip\source\repos\CMD_SFML\CMD_SFML\Game.cpp(389,20): warning C4018: '<': signed/unsigned mismatch
+  CMD_SFML.vcxproj -> C:\Users\mrrip\source\repos\CMD_SFML\Debug\CMD_SFML.exe
